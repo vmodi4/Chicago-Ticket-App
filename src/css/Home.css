@@ -1,0 +1,33 @@
+/* Center the header and search box */
+.home {
+  display: flex;
+  flex-direction: column; /* Stack header and search box vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 30vh; /* Adjust height to center content vertically */
+  text-align: center; /* Center text inside the container */
+  gap: 1rem; /* Add spacing between the header and search box */
+}
+
+/* Header styling */
+.home h1 {
+  font-size: 2.5rem;
+  color: white; /* Blue color for the header */
+  margin: 0; /* Remove default margin */
+}
+
+/* Search bar styling */
+.home input {
+  width: 40%; /* Reduce the width of the search bar */
+  padding: 0.5rem; /* Reduce the padding inside the input */
+  font-size: 0.9rem; /* Make the font size smaller */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.home input:focus {
+  border-color: #007bff; /* Blue border on focus */
+}
+

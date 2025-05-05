@@ -1,0 +1,99 @@
+/*.favorites {
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .favorites h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .favorites-empty {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .favorites-empty h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #e50914;
+  }
+  
+  .favorites-empty p {
+    color: #999;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  
+  Animation for new favorites being added 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .movies-grid > * {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+    */ 
+
+    .cart {
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .cart-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .cart-item {
+      background-color: grey;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .cart-item h3 {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+    
+    .cart-item p {
+      font-size: 1rem;
+      color: black;
+    }
+    
+    .cart-item button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      background-color: #ff4757;
+      color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .cart-item button:hover {
+      background-color: #e63946;
+    }
