@@ -3,11 +3,10 @@ import { useParams } from "react-router-dom";
 import events from "../data/data"; // Import your events data
 import "../css/IndividualEventPage.css";
 
-function IndividualEventPage() {
-  const { id } = useParams(); // Get the event ID from the route
-  console.log("Event Id from url: ", id); // Log the event ID
+function IndividualEventPage( {addToCart}) {
+  const { id } = useParams(); // Get the event ID from the routeconsole.log("Event Id from url: ", id); // Log the event ID
   const event = events.find((event) => event.id === parseInt(id)); // Find the event by ID
-  console.log("Event data: ", event); // Log the event data
+ 
   
 
   return (

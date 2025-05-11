@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div>
-      <NavBar />
+      <NavBar cartItems={cartItems} />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />

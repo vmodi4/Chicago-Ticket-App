@@ -45,4 +45,16 @@
     .nav-link {
       padding: 0.5rem;
     }
+
+    .cart-count {
+      background-color: red;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: bold;
+      border-radius: 50%;
+      padding: 0.2rem 0.5rem;
+      position: absolute;
+      top: -5px;
+      right: -10px;
+    }
   }
